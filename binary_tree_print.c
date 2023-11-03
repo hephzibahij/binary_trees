@@ -4,14 +4,14 @@
 #include "binary_trees.h"
 
 /**
- * print_t - Stores recursively each level in an array of strings
+ * print_t - Recursively stores each level in an array of strings
  *
  * @tree: Pointer to the node to print
  * @offset: Offset to print
  * @depth: Depth of the node
  * @s: Buffer
  *
- * Return: length of printed tree after process
+ * Return: The length of the printed tree after processing
  */
 static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
 {
@@ -44,7 +44,7 @@ static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
 /**
  * _height - Measures the height of a binary tree
  *
- * @tree: Pointer to the node to measures the height
+ * @tree: Pointer to the node to measure the height
  *
  * Return: The height of the tree starting at @node
  */
